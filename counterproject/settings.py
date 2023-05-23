@@ -25,6 +25,8 @@ SECRET_KEY = 'django-insecure-tocf^9)!)$=o1h0*c)#61=5hd@cqd@2xzbu9xe)@-1ueu4g!xf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = ['https://wordcount-production.up.railway.app/']
+
 ALLOWED_HOSTS = ['*']
 
 
