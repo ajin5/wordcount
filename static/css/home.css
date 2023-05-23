@@ -1,0 +1,16 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.headtext{
+    text-align: center;
+    background-color:aqua;
+}
+
+.formcss{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
