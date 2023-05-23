@@ -19,7 +19,7 @@
     </div>
     
     <div class="formcss">
-        <form action="counter">
+        <form action="counter" method="POST">
             {% csrf_token %}
             <textarea type="text" name="text" rows="10" cols="100"></textarea><br>
             <button inputtype="submit">Submit</button>
